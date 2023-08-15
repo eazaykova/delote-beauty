@@ -1,0 +1,21 @@
+@import "../../../assets/styles/_variables";
+
+.link {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 130%;
+  text-decoration: none;
+  color: $white;
+
+  &:hover {
+    text-decoration: underline;
+    text-underline-offset: 8px;
+  }
+
+  &_active {
+    color: $accent;
+    text-decoration: underline;
+    text-decoration-color: $accent;
+    text-underline-offset: 8px;
+  }
+}
