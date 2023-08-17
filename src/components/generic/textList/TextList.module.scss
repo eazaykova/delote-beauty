@@ -1,0 +1,21 @@
+@import "../../../assets/styles/_variables.scss";
+
+h3 {
+  font-family: $extra-font;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+li {
+  font-size: 18px;
+  line-height: 130%;
+
+  &:not(:first-child) {
+    margin-top: 15px;
+  }
+
+  &:first-child {
+    margin-top: 25px;
+  }
+}
