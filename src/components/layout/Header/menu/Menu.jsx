@@ -1,8 +1,13 @@
 import styles from "./Menu.module.scss";
-import NavLinkUI from "../../../ui/navLinkUI/NavLinkUI";
+import NavRef from "../../../ui/NavRef/NavRef";
 import { menu } from "./menu.data";
+import DetailInfo from "./detailInfo/DetailInfo";
+import { useState } from "react";
+import Button from "../../../ui/button/Button";
 
 const Menu = () => {
+  const [activeDetailInfo, setActiveDetailInfo] = useState(true);
+
   return (
     <nav>
       <ul className={styles.menuList}>
@@ -12,7 +17,7 @@ const Menu = () => {
         {menu.map((item, index) =>
           item.link ? (
             <li key={`_menu_${index}`}>
-              <NavLinkUI href={item.link}>{item.title}</NavLinkUI>
+              <NavRef href={item.link}>{item.title}</NavRef>
             </li>
           ) : (
             <img
@@ -22,10 +27,11 @@ const Menu = () => {
             />
           )
         )}
-        <a href="#">
+        <Button clickHandler={() => setActiveDetailInfo(true)}>
           <img src="/icons/info.svg" alt="Information" />
-        </a>
+        </Button>
       </ul>
+      <DetailInfo active={activeDetailInfo} setActive={setActiveDetailInfo} />
     </nav>
   );
 };
