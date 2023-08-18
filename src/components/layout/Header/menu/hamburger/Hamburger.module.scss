@@ -1,0 +1,34 @@
+@import "../../../../../assets/styles/_variables.scss";
+
+.menu {
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  padding: 90px 50px;
+  text-align: center;
+
+  width: 100%;
+  //height: auto;
+  background-color: $black;
+
+  &_show {
+    visibility: visible;
+  }
+
+  &_hide {
+    visibility: hidden;
+  }
+
+  > button {
+    position: absolute;
+    top: 42px;
+    left: 42px;
+  }
+
+  > nav > a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
