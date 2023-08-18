@@ -1,13 +1,13 @@
 @import "../../../assets/styles/_variables.scss";
 
-h3 {
+.title {
   font-family: $extra-font;
   font-size: 24px;
   font-weight: 700;
   line-height: 120%;
 }
 
-li {
+.item {
   font-size: 18px;
   line-height: 130%;
 

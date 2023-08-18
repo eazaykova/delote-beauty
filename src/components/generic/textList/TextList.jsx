@@ -1,12 +1,13 @@
-import "./TextList.module.scss";
+import styles from "./TextList.module.scss";
 
 const TextList = ({ title, list = [] }) => {
   return (
     <div>
-      <h3>{title}</h3>
-      <ul>
+      <ul className={styles.title}>
         {list.map((item, index) => (
-          <li key={`_list_${index}`}>{item}</li>
+          <li key={`_list_${index}`} className={styles.item}>
+            {item}
+          </li>
         ))}
       </ul>
     </div>
