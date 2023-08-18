@@ -8,3 +8,16 @@
     align-items: center;
   }
 }
+
+.menuMobile {
+  display: none;
+}
+
+@media (max-width: 500px) {
+  .menuFull {
+    display: none;
+  }
+  .menuMobile {
+    display: block;
+  }
+}
