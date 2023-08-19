@@ -1,0 +1,21 @@
+@import "../../../assets/styles/_variables.scss";
+
+.caption {
+  display: flex;
+  flex-direction: column;
+  width: max-content;
+}
+
+.title {
+  margin-top: 20px;
+  font-family: $extra-font;
+  font-size: 30px;
+  &_small {
+    font-size: 27px;
+  }
+}
+
+.subTitle {
+  margin-top: 10px;
+  font-size: 18px;
+}
