@@ -1,0 +1,21 @@
+@import "../../../assets/styles/_variables.scss";
+
+.frame {
+  border: 1px solid $accent;
+  float: left;
+  margin-left: 18px;
+}
+
+.img {
+  position: relative;
+  top: 30px;
+  margin-top: -10px;
+
+  &_twenty {
+    left: -20px;
+  }
+
+  &_sixteen {
+    left: -16px;
+  }
+}
