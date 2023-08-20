@@ -4,16 +4,16 @@ import About from "./about/About";
 import Services from "./services/Services";
 import Cosmetics from "./cosmetics/Cosmetics";
 import Preview from "./preview/Preview";
+import OurWorks from "./our-works/OurWorks";
 
 const Home = () => {
   return (
     <Layout>
-      <main>
-        <Preview />
-        <About />
-        <Services />
-        <Cosmetics />
-      </main>
+      <Preview />
+      <About />
+      <Services />
+      <Cosmetics />
+      <OurWorks />
     </Layout>
   );
 };
