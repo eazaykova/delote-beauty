@@ -7,7 +7,6 @@ const Layout = ({ children }) => {
     <section className={[styles.wrapper, styles.container].join(" ")}>
       <Header />
       {children && <main>{children}</main>}
-
       <Footer />
     </section>
   );

@@ -1,4 +1,3 @@
-import styles from "./Home.module.scss";
 import Layout from "../../layout/Layout";
 import About from "./about/About";
 import Services from "./services/Services";
