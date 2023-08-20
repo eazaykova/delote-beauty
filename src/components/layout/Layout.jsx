@@ -6,7 +6,7 @@ const Layout = ({ children }) => {
   return (
     <section className={[styles.wrapper, styles.container].join(" ")}>
       <Header />
-      {children && <div>{children}</div>}
+      {children && <main>{children}</main>}
 
       <Footer />
     </section>
