@@ -1,0 +1,27 @@
+@import "../../../../assets/styles/_variables";
+
+.ourWorks {
+  margin-top: 168px;
+  text-align: center;
+}
+
+.title {
+  font-family: $extra-font;
+  font-weight: 700;
+  font-size: 48px;
+}
+
+.variants {
+  margin-top: 80px;
+
+  & > button:not(:last-child) {
+    margin-right: 60px;
+  }
+}
+
+.works {
+  margin-top: 65px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
