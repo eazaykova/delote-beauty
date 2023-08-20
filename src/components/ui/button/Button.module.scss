@@ -1,3 +1,10 @@
+@import "../../../assets/styles/_variables";
+
 .button {
   width: fit-content;
+  font-size: 24px;
+  &:hover {
+    text-decoration: underline;
+    text-underline-offset: 15px;
+  }
 }
