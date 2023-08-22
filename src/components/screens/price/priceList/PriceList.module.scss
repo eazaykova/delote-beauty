@@ -1,0 +1,18 @@
+.priceList {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.priceItem {
+  width: 526px;
+}
+
+.left {
+  order: -1;
+}
+
+.right {
+  order: 1;
+}
