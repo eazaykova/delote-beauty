@@ -2,12 +2,13 @@ import { useState } from "react";
 import { ourWorks } from "../../../../data/ourWorks.data";
 import Button from "../../../ui/button/Button";
 import styles from "./OurWorks.module.scss";
+import Title from "../../../generic/title/Title";
 
 const OurWorks = () => {
   const [type, setType] = useState("");
   return (
     <section className={styles.ourWorks}>
-      <h2 className={styles.title}>Наши работы</h2>
+      <Title>Наши работы</Title>
       <div className={styles.variants}>
         <Button isUnderline={true} clickHandler={() => setType("")}>
           Показать все
