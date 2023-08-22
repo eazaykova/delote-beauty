@@ -2,13 +2,10 @@
 
 .masters {
   margin-top: 80px;
-}
 
-.title {
-  font-family: $extra-font;
-  font-weight: 700;
-  font-size: 48px;
-  text-align: center;
+  > h2 {
+    text-align: center;
+  }
 }
 
 .list {

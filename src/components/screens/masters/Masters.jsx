@@ -3,12 +3,13 @@ import Layout from "../../layout/Layout";
 import { masters } from "../../../data/masters.data";
 import Caption from "../../ui/caption/Сaption";
 import ImageWithFrame from "../../ui/imageWithFrame/ImageWithFrame";
+import Title from "../../generic/title/Title";
 
 const Masters = () => {
   return (
     <Layout>
       <section className={styles.masters}>
-        <h2 className={styles.title}>Наши мастера</h2>
+        <Title>Наши мастера</Title>
         <div className={styles.list}>
           {masters.map((item, index) => (
             <Caption
