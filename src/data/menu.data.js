@@ -13,7 +13,7 @@ export const menu = [
   },
   {
     title: "Цены",
-    link: "/rices",
+    link: "/price",
   },
   {
     title: "Контакты",
