@@ -17,6 +17,6 @@ export const menu = [
   },
   {
     title: "Контакты",
-    link: "/сontacts",
+    link: "/contacts",
   },
 ];
