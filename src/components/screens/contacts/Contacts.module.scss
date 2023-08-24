@@ -1,0 +1,18 @@
+.contacts {
+  margin-top: 80px;
+
+  > h2 {
+    text-align: center;
+    margin-bottom: 80px;
+  }
+
+  > div {
+    margin-top: 80px;
+
+    display: flex;
+    justify-content: space-between;
+    > div {
+      width: 250px;
+    }
+  }
+}
