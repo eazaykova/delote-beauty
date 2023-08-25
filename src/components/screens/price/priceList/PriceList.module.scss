@@ -1,12 +1,21 @@
 .priceList {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   margin-top: 80px;
+  gap: 25px;
+  @media (max-width: 650px) {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
 }
 
 .priceItem {
-  width: 526px;
+  max-width: 526px;
+  width: 100%;
 }
 
 .left {
@@ -15,4 +24,7 @@
 
 .right {
   order: 1;
+  @media (max-width: 650px) {
+    order: -1;
+  }
 }

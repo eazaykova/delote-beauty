@@ -3,4 +3,17 @@
   justify-content: space-around;
   opacity: 0.5;
   margin-top: 150px;
+  @media (max-width: 650px) {
+    margin-top: 80px;
+  }
+}
+
+@media (max-width: 650px) {
+  .cosmetics {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-items: center;
+    gap: 30px;
+  }
 }

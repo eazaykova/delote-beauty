@@ -4,6 +4,9 @@
   align-items: center;
 
   margin-top: 120px;
+  @media (max-width: 650px) {
+    margin-top: 80px;
+  }
 
   > img {
     margin-bottom: 60px;
@@ -11,7 +14,7 @@
 
   > p {
     text-align: center;
-    width: 898px;
+    max-width: 898px;
 
     font-weight: 700;
     font-size: 27px;
