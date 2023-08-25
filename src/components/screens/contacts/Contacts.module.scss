@@ -1,5 +1,8 @@
+@import "../../../assets/styles/animations";
+
 .contacts {
   margin-top: 80px;
+  animation: fadeInUp 2s forwards;
 
   > h2 {
     text-align: center;

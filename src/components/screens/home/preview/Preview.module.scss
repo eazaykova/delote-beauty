@@ -1,5 +1,5 @@
 @import "../../../../assets/styles/_variables";
-
+@import "../../../../assets/styles/animations";
 .bg {
   position: absolute;
   top: 0;
@@ -24,6 +24,8 @@
   font-family: $extra-font;
   font-size: 72px;
   line-height: 120%;
+
+  animation: opacity 2.5s, size 2s;
 }
 
 .mouseDown {
