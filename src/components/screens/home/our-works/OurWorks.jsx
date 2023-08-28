@@ -10,7 +10,7 @@ const OurWorks = () => {
     <section className={styles.ourWorks}>
       <Title>Наши работы</Title>
       <div className={styles.variants}>
-        <Button isUnderline={true} clickHandler={() => setType("")}>
+        <Button def={true} isUnderline={true} clickHandler={() => setType("")}>
           Показать все
         </Button>
         <Button isUnderline={true} clickHandler={() => setType("hairdresser")}>
