@@ -4,7 +4,8 @@ import NotFound from "../components/screens/not-found/NotFound";
 
 const Router = () => {
   return (
-    <BrowserRouter>
+    /* <BrowserRouter>*/
+    <HashRouter>
       <Routes>
         {routes.map((route) => {
           return (
@@ -18,7 +19,8 @@ const Router = () => {
 
         <Route path="*" element={<NotFound />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
+    /*</BrowserRouter>*/
   );
 };
 
