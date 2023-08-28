@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, HashRouter, Route, Routes } from "react-router-dom";
 import { routes } from "./routes.data";
 import NotFound from "../components/screens/not-found/NotFound";
 
