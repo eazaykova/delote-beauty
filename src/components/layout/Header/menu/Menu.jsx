@@ -6,9 +6,13 @@ import { useState } from "react";
 import Button from "../../../ui/button/Button";
 import { menu } from "../../../../data/menu.data";
 import Hamburger from "./hamburger/Hamburger";
+import { useLocation } from "react-router-dom";
 
 const Menu = () => {
-  const [activeDetailInfo, setActiveDetailInfo] = useState(true);
+  const location = useLocation();
+  const [activeDetailInfo, setActiveDetailInfo] = useState(
+    location.pathname === "/" ? true : false
+  );
   const [activeHamburger, setActiveHamburger] = useState(false);
 
   return (
